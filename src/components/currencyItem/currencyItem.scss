@@ -1,0 +1,23 @@
+.currencyItem{
+    display: flex;
+    &__detail-container{
+        padding: 0.5rem 1rem;
+        width: 80%;
+    }
+    &__button{
+        min-height: 100%;
+        background-color: orange !important;
+    }
+    &__title{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__currencyName{
+        font-weight: bold;
+    }
+    &__exchangeRate{
+        font-style: italic;
+    }
+}
